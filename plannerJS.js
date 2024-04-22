@@ -7,25 +7,25 @@
 
 // Close the planner webpage
 function clear_weekly_planner(){
-    pass
+    window.alert("clear_weekly_planner() running")
 }
 
 
 // Create a document of the weekly planner
 function create_planner_document(){
-    pass
+    window.alert("create_planner_document() running")
 }
 
 
 // Download the document created by create_planner_document
 function download_weekly_planner(doc){
-    pass
+    window.alert("download_weekly_planner() running")
 }
 
 
 // Print the document created by create_planner_document
 function print_weekly_planner(doc){
-    pass
+    window.alert("print_weekly_planner() running")
 }
 
 

@@ -7,20 +7,22 @@
 
 // Build a webpage displaying a meal plan using the user's input
 function build_weekly_planner(fname,lname,goal,breakfast,snack1,lunch,snack2,dinner){
-    pass
+    window.alert("build_weekly_planner() running")
+    window.alert("fname: "+fname+", lname: "+lname+", goal: "+goal+", breakfast: "+breakfast+", snack1: "+snack1+", lunch: "+lunch+", snack2: "+snack2+", dinner: "+dinner)
 }
 
 
 // This function will check that the user entered a valid email address
 // Will return True or False. If returned True, the rest of the program will run.
 function validate_email(email){
-    pass
+    window.alert("validate_email() running")
+    return true
 }
 
 
 // This function will clear the form
 function clear_form(){
-    pass
+    window.alert("clear_form() running")
 }
 
 
@@ -29,7 +31,7 @@ function  main(){
 
 
     // Functionality for the clear button
-    let clear = docoument.getElementById("clear")
+    let clear = document.getElementById("clear")
     clear.addEventListener("click", function(){
         // Clear the value of all form elements
         clear_form()
@@ -38,9 +40,8 @@ function  main(){
     // Functionality for the submit button
     let submit = document.getElementById("submit")
     submit.addEventListener("click", function(){
-        // let email = document.getElementById("email")
-        // let valid_email = validate_email(email)
-        let valid_email = true
+        let email = document.getElementById("email")
+        let valid_email = validate_email(email)
 
         if (valid_email){
             // Retrieve values entered by the user
