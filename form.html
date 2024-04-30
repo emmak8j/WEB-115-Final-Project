@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WEB-115 Final Project</title>
+<img src="banner.png" style="width:100%;z-index:0">
+<script src='formJS.js' defer> </script>
+</head>
+<style>
+	.day {
+		text-align: left
+	}
+</style>
+
+<body>
+
+<form name="meal_form">
+
+<fieldset>
+	<legend>Peronal Information</legend>
+	<label for="name"> Name </label>
+	<input id="name" type="text" value=""> <br> <br>
+
+	<label for="email">Email Address* </label>
+	<input id="email" type="email" value=""> <br>
+</fieldset> <br>
+
+<fieldset>
+  <legend> Weekly Goal </legend>
+  
+  <label for="goal"> Goal </label>
+	<input id="goal" type="text" value=""> <br> <br>
+  
+ </fieldset> <br>
+  
+<fieldset>
+	<legend>Meals</legend>
+  
+  <table id="meals_table">
+    <tr>
+      <th> </th>
+      <th> Breakfast </th>
+      <th> Snack 1 </th>
+      <th> Lunch </th>
+      <th> Snack 2 </th>
+      <th> Dinner </th>
+    </tr> 
+    
+    <tr>
+      <th class="day"> Monday </th>
+      <th>  <input id="mon_breakfast" type="text" value=""> </th>
+      <th>  <input id="mon_snack1" type="text" value=""> </th>
+      <th>  <input id="mon_lunch" type="text" value=""> </th>
+      <th>  <input id="mon_snack2" type="text" value=""> </th>
+      <th>  <input id="mon_dinner" type="text" value=""> </th>
+    </tr>
+    
+    <tr>
+      <th class="day"> Tuesday </th>
+      <th>  <input id="tues_breakfast" type="text" value=""> </th>
+      <th>  <input id="tues_snack1" type="text" value=""> </th>
+      <th>  <input id="tues_lunch" type="text" value=""> </th>
+      <th>  <input id="tues_snack2" type="text" value=""> </th>
+      <th>  <input id="tues_dinner" type="text" value=""> </th>
+    </tr>
+    
+    <tr>
+      <th class="day"> Wednesday </th>
+      <th>  <input id="wed_breakfast" type="text" value=""> </th>
+      <th>  <input id="wed_snack1" type="text" value=""> </th>
+      <th>  <input id="wed_lunch" type="text" value=""> </th>
+      <th>  <input id="wed_snack2" type="text" value=""> </th>
+      <th>  <input id="wed_dinner" type="text" value=""> </th>
+    </tr>
+    
+    <tr>
+      <th class="day"> Thursday </th>
+      <th>  <input id="thurs_breakfast" type="text" value=""> </th>
+      <th>  <input id="thurs_snack1" type="text" value=""> </th>
+      <th>  <input id="thurs_lunch" type="text" value=""> </th>
+      <th>  <input id="thurs_snack2" type="text" value=""> </th>
+      <th>  <input id="thurs_dinner" type="text" value=""> </th>
+    </tr>
+    
+    <tr>
+      <th class="day"> Friday </th>
+      <th>  <input id="fri_breakfast" type="text" value=""> </th>
+      <th>  <input id="fri_snack1" type="text" value=""> </th>
+      <th>  <input id="fri_lunch" type="text" value=""> </th>
+      <th>  <input id="fri_snack2" type="text" value=""> </th>
+      <th>  <input id="fri_dinner" type="text" value=""> </th>
+    </tr>
+    
+    <tr>
+      <th class="day"> Saturday </th>
+      <th>  <input id="sat_breakfast" type="text" value=""> </th>
+      <th>  <input id="sat_snack1" type="text" value=""> </th>
+      <th>  <input id="sat_lunch" type="text" value=""> </th>
+      <th>  <input id="sat_snack2" type="text" value=""> </th>
+      <th>  <input id="sat_dinner" type="text" value=""> </th>
+    </tr>
+    
+    <tr>
+      <th class="day"> Sunday </th>
+      <th>  <input id="sun_breakfast" type="text" value=""> </th>
+      <th>  <input id="sun_snack1" type="text" value=""> </th>
+      <th>  <input id="sun_lunch" type="text" value=""> </th>
+      <th>  <input id="sun_snack2" type="text" value=""> </th>
+      <th>  <input id="sun_dinner" type="text" value=""> </th>
+    </tr>
+    
+  </table>
+  
+  </fieldset> <br>
+  
+<input id="clear" type="button" value="Clear">
+<input id="submit" type="button" value="Submit">
+
+</form>
+
+</body>
+</html>
